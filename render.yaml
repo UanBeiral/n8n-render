@@ -1,0 +1,13 @@
+services:
+– type: web
+name: n8n
+runtime: docker
+plan: free
+env: docker
+envVars:
+– key: N8N_BASIC_AUTH_ACTIVE
+value: “true”
+– key: N8N_BASIC_AUTH_USER
+value: “UanBeiral” # Substitua pelo seu usuário
+– key: N8N_BASIC_AUTH_PASSWORD
+value: “@oPtimus1” # Substitua pela sua senha
